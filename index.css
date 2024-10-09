@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope";
+}
+
+
+.main-container {
+  width:90%;
+  display:flex; 
+  flex-direction: row; 
+  align-items: center;
+  justify-content: space-around; 
+  padding: 150px; 
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.left {
+  width: 40%;
+  padding: 30px; 
+}
+
+.right {
+  width: 40%;
+}
+
+.left h1 {
+  padding-left: 40px; 
+  padding-top: 40px;
+  margin: 10px;  
+  font-size: 60px;
+}
+
+.left p {
+  padding-left: 40px; 
+  padding-top: 40px;
+  margin: 10px; 
+  width: 70%;
+  font-weight: 200;
+}
+
+.buttons {
+  margin-top: 50px; 
+  display: flex; 
+  flex-direction: row; 
+  padding-left: 40px; 
+}
+
+#github-and-logo {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  justify-content: space-between; 
+  padding: 7px;   
+  width: 25%; 
+  margin: 15px; 
+  border-radius: 3px;  
+  background-color:#8fbc8f;
+}
+
+#github-and-logo img {
+  size: 1px;
+}
+
+#linkedin {
+  padding-top: 20px; 
+  padding-left:7px;
+  margin:15px; 
+  width: 25%;
+  border-radius:3px; 
+  background-color: #c1dabf;
+}
+
+#github-and-logo:hover {
+  cursor:pointer;
+  background-color:#c7e4c7;
+}
+
+#linkedin:hover{
+  cursor:pointer;
+  background-color: #dae3d9;
+}
+
+
+.right img {
+  width: 80%; 
+  border-radius: 3px; 
+}
