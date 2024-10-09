@@ -53,23 +53,31 @@
   align-items: center;
   justify-content: space-between; 
   padding: 7px;   
-  width: 25%; 
+  width: 30%; 
   margin: 15px; 
   border-radius: 3px;  
   background-color:#8fbc8f;
 }
 
 #github-and-logo img {
-  size: 1px;
+  width: 20%
 }
 
-#linkedin {
-  padding-top: 20px; 
-  padding-left:7px;
+#linkedin-and-logo {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: space-between;
+  padding: 7px;
   margin:15px; 
-  width: 25%;
+  width: 30%;
   border-radius:3px; 
   background-color: #c1dabf;
+}
+
+#linkedin-and-logo img {
+  width: 20%;
+
 }
 
 #github-and-logo:hover {
@@ -77,7 +85,7 @@
   background-color:#c7e4c7;
 }
 
-#linkedin:hover{
+#linkedin-and-logo:hover{
   cursor:pointer;
   background-color: #dae3d9;
 }
